@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f13382ae4147bbe4d6e48364ad6fa3ea",
+    "revision": "f41b07e736bf8470ca727fa5082c911d",
     "url": "/xenia_oracle/index.html"
   },
   {
-    "revision": "7916438c02ad6c9ba772",
-    "url": "/xenia_oracle/static/css/main.5e91dadc.chunk.css"
+    "revision": "d1807b92b50d1a32607a",
+    "url": "/xenia_oracle/static/css/main.dc0b966e.chunk.css"
   },
   {
     "revision": "5e3604067598dd7654d6",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle/static/js/2.564fb7f3.chunk.js.LICENSE"
   },
   {
-    "revision": "7916438c02ad6c9ba772",
+    "revision": "d1807b92b50d1a32607a",
     "url": "/xenia_oracle/static/js/main.33e32c78.chunk.js"
   },
   {
