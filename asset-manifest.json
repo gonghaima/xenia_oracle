@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/xenia_oracle/static/css/main.5e91dadc.chunk.css",
+    "main.js": "/xenia_oracle/static/js/main.33e32c78.chunk.js",
+    "main.js.map": "/xenia_oracle/static/js/main.33e32c78.chunk.js.map",
+    "runtime-main.js": "/xenia_oracle/static/js/runtime-main.7c1539f6.js",
+    "runtime-main.js.map": "/xenia_oracle/static/js/runtime-main.7c1539f6.js.map",
+    "static/js/2.564fb7f3.chunk.js": "/xenia_oracle/static/js/2.564fb7f3.chunk.js",
+    "static/js/2.564fb7f3.chunk.js.map": "/xenia_oracle/static/js/2.564fb7f3.chunk.js.map",
+    "index.html": "/xenia_oracle/index.html",
+    "precache-manifest.3787869839025ff5e54cc94045014c0b.js": "/xenia_oracle/precache-manifest.3787869839025ff5e54cc94045014c0b.js",
+    "service-worker.js": "/xenia_oracle/service-worker.js",
+    "static/css/main.5e91dadc.chunk.css.map": "/xenia_oracle/static/css/main.5e91dadc.chunk.css.map",
+    "static/js/2.564fb7f3.chunk.js.LICENSE": "/xenia_oracle/static/js/2.564fb7f3.chunk.js.LICENSE",
+    "static/media/App.scss": "/xenia_oracle/static/media/xenia-head-img.a7c7c89f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c1539f6.js",
+    "static/js/2.564fb7f3.chunk.js",
+    "static/css/main.5e91dadc.chunk.css",
+    "static/js/main.33e32c78.chunk.js"
+  ]
+}
