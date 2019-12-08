@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="top-section">
+        <div className="content_margin full_width flex-center space-between">
+          <div>Icon</div>
+          <div>Search box</div>
+          <div>Oracle Cloud Free Tier</div>
+        </div>
+      </section>
+      <nav className="nav">
+        <div className="content_margin flex-center nav-content">
+          <div>Oracle New Zealand /Industries / Hospitality / Hotel Property Management / Resources</div>
+          <div>Hotel PMS</div>
+        </div>
+      </nav>
+      <section className="head-section"></section>
     </div>
   );
 }

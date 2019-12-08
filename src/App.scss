@@ -1,0 +1,52 @@
+
+.App {
+  display: block;
+  /* background-color: #ece9e6; */
+  background: #fcfbfa;
+  height: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.content_margin {
+  margin: 0px 100px 0px 100px;
+}
+
+.full_width {
+  width: 100%;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.top-section {
+  height: 44px;
+  padding: 8px;
+  background: #3F3A36;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  height: 91px;
+  background: #100f0e;
+  color: #fff;
+  display: flex;
+  .nav-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.head-section{
+  height: 394px;
+  background: url(img/xenia-head-img.jpg)
+}
