@@ -1,3 +1,8 @@
+$breakpoint-xs: 576px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1600px;
 
 .App {
   display: block;
@@ -28,17 +33,17 @@
 .top-section {
   height: 44px;
   padding: 8px;
-  background: #3F3A36;
+  background: #3f3a36;
   display: flex;
   justify-content: center;
 }
 
-.nav {
-  height: 91px;
+.breadcrumb {
+  height: calc(3.1948881789vw + 39.8817891374px);
   background: #100f0e;
   color: #fff;
   display: flex;
-  .nav-content{
+  .breadcrumb-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +51,45 @@
   }
 }
 
-.head-section{
-  height: 394px;
-  background: url(./img/xenia-head-img.jpg)
+.head-section {
+  background: url(./img/xenia-head-img.jpg);
+  padding: 66px 0px 0px 0px;
+  background-size: cover;
+  background-position: 42% 0px;
+  background-repeat: no-repeat;
+  // background-size: cover;
+  .head-section-content {
+    //  min-height: calc(13.2530120482vw + 187.951807229px + -8.9rem);
+    padding: 0px 38px 0px 38px;
+  }
+}
+
+nav {
+  transform: translateY(-100%);
+  background: rgba(0, 0, 0, 0.6);
+  height: 66px;
+  padding: 0px 38px 0px 38px;
+  display: flex;
+  justify-content: space-between;
+
+  .nav-item {
+    display: flex;
+    width: 75%;
+    ul {
+      width: 100%;
+      display: flex;
+    }
+  }
+}
+
+@media only screen and (min-width: $breakpoint-xs) {
+  .head-section-content {
+    min-height: 243px;
+  }
+}
+
+@media only screen and (min-width: $breakpoint-md) {
+  .head-section-content {
+    min-height: 284px;
+  }
 }
