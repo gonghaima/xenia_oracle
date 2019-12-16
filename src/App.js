@@ -45,7 +45,7 @@ function App() {
             </li>
           </ul>
         </div>
-        <div className="contact-button">
+        <div className="contact-button-container">
           <button>Contact us</button>
         </div>
       </nav>

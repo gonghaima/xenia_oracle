@@ -4,6 +4,13 @@ $breakpoint-md: 992px;
 $breakpoint-lg: 1200px;
 $breakpoint-xl: 1600px;
 
+$primary-theme-color: #588757;
+$primary-button-color: #6a9d67;
+$primary-button-hover-color: #467146;
+$primary-font-color: #fff;
+
+$primary-background: rgba(0, 0, 0, 0.6);
+
 .App {
   display: block;
   /* background-color: #ece9e6; */
@@ -66,7 +73,7 @@ $breakpoint-xl: 1600px;
 
 nav {
   transform: translateY(-100%);
-  background: rgba(0, 0, 0, 0.6);
+  background: $primary-background;
   height: 66px;
   padding: 0px 38px 0px 38px;
   display: flex;
@@ -78,6 +85,60 @@ nav {
     ul {
       width: 100%;
       display: flex;
+      margin: 0;
+      li {
+        list-style: none;
+        * {
+          color: $primary-font-color;
+          // transition: opacity 0.3s ease;
+          // text-decoration: none;
+        }
+        div {
+          padding: 0 15px;
+          font-size: 0.9rem;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          transition: border-bottom 0.2s linear;
+          border-bottom: 5px solid;
+          box-sizing: border-box;
+          border-color: $primary-background;
+
+          a {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            // border-bottom: 3px solid transparent;
+            transition: 1s;
+          }
+          &:hover {
+            border-bottom: 5px solid $primary-theme-color;
+            opacity: 0.75;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-button-container {
+    display: flex;
+    align-items: center;
+    button {
+      height: 40px;
+      border-radius: 3px;
+      padding: 0px 15px 0px 15px;
+      color: $primary-font-color;
+      background-color: $primary-button-color;
+      border-color: $primary-theme-color;
+      font-size: 0.9em;
+      font-weight: 500;
+      transition: 0.2s;
+      &:hover {
+        cursor: pointer;
+        background-color: $primary-button-hover-color;
+      }
     }
   }
 }
