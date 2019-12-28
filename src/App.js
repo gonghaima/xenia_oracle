@@ -49,6 +49,7 @@ function App() {
           <button>Contact us</button>
         </div>
       </nav>
+      <section className="main-section"></section>
     </div>
   );
 }

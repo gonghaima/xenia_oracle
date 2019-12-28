@@ -10,6 +10,7 @@ $primary-button-hover-color: #467146;
 $primary-font-color: #fff;
 
 $primary-background: rgba(0, 0, 0, 0.6);
+$second-background: rgba(0, 0, 0, 0.1);
 
 .App {
   display: block;
@@ -38,7 +39,7 @@ $primary-background: rgba(0, 0, 0, 0.6);
 }
 
 .top-section {
-  height: 44px;
+  height: 60px;
   padding: 8px;
   background: #3f3a36;
   display: flex;
@@ -102,7 +103,7 @@ nav {
           transition: border-bottom 0.2s linear;
           border-bottom: 5px solid;
           box-sizing: border-box;
-          border-color: $primary-background;
+          border-color: $second-background;
 
           a {
             float: left;
@@ -141,6 +142,11 @@ nav {
       }
     }
   }
+}
+
+.main-section {
+  padding-top: 3em;
+  padding-bottom: 3.5em;
 }
 
 @media only screen and (min-width: $breakpoint-xs) {
