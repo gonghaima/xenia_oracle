@@ -79,6 +79,8 @@ nav {
   padding: 0px 38px 0px 38px;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  width: 100%;
 
   .nav-item {
     display: flex;
@@ -157,6 +159,6 @@ nav {
 
 @media only screen and (min-width: $breakpoint-md) {
   .head-section-content {
-    min-height: 284px;
+    min-height: 281px;
   }
 }
