@@ -51,7 +51,16 @@ function App() {
       </nav>
       <section className="main-section">
         <div className="side">
-          <section>Share this page</section>
+          <section>
+            <h2>Share this page</h2>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </section>
           <div>In-Page Topics</div>
         </div>
         <main>

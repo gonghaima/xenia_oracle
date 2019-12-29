@@ -12,6 +12,8 @@ $primary-font-color: #fff;
 $primary-background: rgba(0, 0, 0, 0.6);
 $second-background: rgba(0, 0, 0, 0.1);
 
+$primary-font-color: #1a1816;
+
 .App {
   display: block;
   /* background-color: #ece9e6; */
@@ -158,6 +160,21 @@ nav {
 .side {
   width: calc(33.3333% - 36px);
   max-width: calc(33.3333% - 36px);
+  color: $primary-font-color;
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid #dedad6;
+  }
+  li {
+    display: inline-block;
+    height: 58px;
+    width: 58px;
+    border-radius: 40px;
+    background-image: url("http://via.placeholder.com/58");
+  }
 }
 
 @media only screen and (min-width: $breakpoint-xs) {
