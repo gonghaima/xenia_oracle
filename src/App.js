@@ -51,7 +51,7 @@ function App() {
       </nav>
       <section className="main-section">
         <div className="side">
-          <section>
+          <section className="social-section">
             <h2>Share this page</h2>
             <ul>
               <li></li>
