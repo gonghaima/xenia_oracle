@@ -49,7 +49,15 @@ function App() {
           <button>Contact us</button>
         </div>
       </nav>
-      <section className="main-section"></section>
+      <section className="main-section">
+        <div className="side">
+          <section>Share this page</section>
+          <div>In-Page Topics</div>
+        </div>
+        <main>
+          How Hotel PMS Works
+        </main>
+      </section>
     </div>
   );
 }
