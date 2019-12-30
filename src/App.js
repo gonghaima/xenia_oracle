@@ -64,7 +64,7 @@ function App() {
           <div>In-Page Topics</div>
         </div>
         <main>
-          How Hotel PMS Works
+          <h2>How Hotel PMS Works</h2>
         </main>
       </section>
     </div>
