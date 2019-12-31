@@ -61,7 +61,9 @@ function App() {
               <li></li>
             </ul>
           </section>
-          <div>In-Page Topics</div>
+          <section className="in-page-section">
+            <h3>In-Page Topics</h3>
+          </section>
         </div>
         <main>
           <h2>How Hotel PMS Works</h2>
