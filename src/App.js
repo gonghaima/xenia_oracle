@@ -83,6 +83,10 @@ function App() {
                 <a href="#">Oracle Hotel Property Management</a>
               </li>
             </ul>
+
+          </section>
+          <section className="learn-more-section">
+            <h3>Learn More</h3>
           </section>
         </div>
         <main>

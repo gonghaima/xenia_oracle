@@ -156,13 +156,17 @@ nav {
   padding-right: 20px;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
   .side {
     width: calc(33.3333% - 36px);
     max-width: calc(33.3333% - 36px);
     margin-right: 18px;
     color: $secondary-font-color;
-    .social-section {
+    section {
       padding-bottom: 1.4em;
+    }
+    .social-section {
       h2 {
         font-size: 1.5rem;
         font-weight: 600;
@@ -182,7 +186,21 @@ nav {
         }
       }
     }
-    .in-page-section {
+    .in-page-section,
+    .learn-more-section {
+      li {
+        position: relative;
+        padding: 0.9em 1em 0.9em 0;
+        margin-bottom: 0;
+        font-size: 0.8rem;
+        a {
+          text-decoration: none;
+          color: $secondary-font-color;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
       h3 {
         padding-bottom: 0.5em;
         margin-bottom: 0.5em;
@@ -191,25 +209,12 @@ nav {
         border-bottom: 1px solid #dedad6;
         color: $third-font-color;
       }
-      .in-page-content {
-        li {
-          position: relative;
-          padding: 0.9em 1em 0.9em 0;
-          margin-bottom: 0;
-          font-size: 0.8rem;
-          a {
-            text-decoration: none;
-            color: $secondary-font-color;
-            &:hover {
-              text-decoration: underline;
-            }
-          }
-        }
-      }
     }
   }
   main {
-    margin: 0 18px;
+    margin: 0 0 0 18px;
+    width: calc(66.666% - 36px);
+    max-width: calc(66.666% - 36px);
     h2 {
       font-weight: 600;
     }
