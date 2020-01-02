@@ -9,6 +9,7 @@ $primary-button-color: #6a9d67;
 $primary-button-hover-color: #467146;
 $primary-font-color: #fff;
 $secondary-font-color: #1a1816;
+$third-font-color: #000;
 
 $primary-background: rgba(0, 0, 0, 0.6);
 $second-background: rgba(0, 0, 0, 0.1);
@@ -168,6 +169,7 @@ nav {
         margin-bottom: 0.7em;
         padding-bottom: 0.5em;
         border-bottom: 1px solid #dedad6;
+        color: $third-font-color;
       }
       ul {
         display: flex;
@@ -183,9 +185,26 @@ nav {
     .in-page-section {
       h3 {
         padding-bottom: 0.5em;
+        margin-bottom: 0.5em;
         font-size: 1.3rem;
         font-weight: normal;
         border-bottom: 1px solid #dedad6;
+        color: $third-font-color;
+      }
+      .in-page-content {
+        li {
+          position: relative;
+          padding: 0.9em 1em 0.9em 0;
+          margin-bottom: 0;
+          font-size: 0.8rem;
+          a {
+            text-decoration: none;
+            color: $secondary-font-color;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
       }
     }
   }

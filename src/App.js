@@ -63,6 +63,26 @@ function App() {
           </section>
           <section className="in-page-section">
             <h3>In-Page Topics</h3>
+            <ul className="in-page-content">
+              <li>
+                <a href="#">How Hotel PMS Works</a>
+              </li>
+              <li>
+                <a href="#">What is a Hotel Property Management System</a>
+              </li>
+              <li>
+                <a href="#">Business Benefits of Hotel PMS</a>
+              </li>
+              <li>
+                <a href="#">Selecting the Right Hotel Property Management System</a>
+              </li>
+              <li>
+                <a href="#">Deploying Cloud-Based Hotel PMS</a>
+              </li>
+              <li>
+                <a href="#">Oracle Hotel Property Management</a>
+              </li>
+            </ul>
           </section>
         </div>
         <main>
