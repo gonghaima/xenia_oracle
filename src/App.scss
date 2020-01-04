@@ -186,8 +186,7 @@ nav {
         }
       }
     }
-    .in-page-section,
-    .learn-more-section {
+    @mixin general-section {
       li {
         position: relative;
         padding: 0.9em 1em 0.9em 0;
@@ -208,6 +207,20 @@ nav {
         font-weight: normal;
         border-bottom: 1px solid #dedad6;
         color: $third-font-color;
+      }
+    }
+    .in-page-section {
+      @include general-section;
+    }
+    .learn-more-section {
+      @include general-section;
+      .learn-more-content {
+        li {
+          padding: 0.4em 1em 0.4em 0;
+          a {
+            color: rgb(188, 108, 55);
+          }
+        }
       }
     }
   }

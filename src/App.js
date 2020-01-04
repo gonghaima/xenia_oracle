@@ -87,6 +87,20 @@ function App() {
           </section>
           <section className="learn-more-section">
             <h3>Learn More</h3>
+            <ul className="learn-more-content">
+              <li>
+                <a href="#">What is OPERA Hotel PMS?</a>
+              </li>
+              <li>
+                <a href="#">Selecting the right hotel property management system</a>
+              </li>
+              <li>
+                <a href="#">Are you ready for mobile Hotel PMS?</a>
+              </li>
+              <li>
+                <a href="#">How does the OPERA Property Management solution work?</a>
+              </li>
+            </ul>
           </section>
         </div>
         <main>
