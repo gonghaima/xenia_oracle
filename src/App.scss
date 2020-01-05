@@ -10,6 +10,7 @@ $primary-button-hover-color: #467146;
 $primary-font-color: #fff;
 $secondary-font-color: #1a1816;
 $third-font-color: #000;
+$fourth-font-color: #100f0e;
 
 $primary-background: rgba(0, 0, 0, 0.6);
 $second-background: rgba(0, 0, 0, 0.1);
@@ -230,6 +231,14 @@ nav {
     max-width: calc(66.666% - 36px);
     h2 {
       font-weight: 600;
+      margin: 0 0 0.4em;
+    }
+    p {
+      color: $fourth-font-color;
+      font-weight: 400;
+      margin: 0 0 1.1em;
+      line-height: 1.55;
+      font-size: 0.9rem;
     }
   }
 }
