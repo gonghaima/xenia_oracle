@@ -107,8 +107,8 @@ function App() {
         <main>
           <h2>How Hotel PMS Works</h2>
           <p>OPERA Cloud hotel property management system offers hoteliers capabilities to enhance operating efficiency and deliver exceptional guest experiences. The platform integrates emerging technologies with ease, accelerating innovation to meet ever-changing demands.</p>
-          <div className="main-video">
-            <img src={oracleCloud} />
+          <div className="main-video" data-aos="fade-in">
+            <img alt="main-video" src={oracleCloud} />
           </div>
         </main>
       </section>
