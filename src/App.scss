@@ -53,7 +53,7 @@ $second-background: rgba(0, 0, 0, 0.1);
   height: calc(3.1948881789vw + 39.8817891374px);
   background: #100f0e;
   font-size: 0.8em;
-  color: #fff;
+  color: $primary-font-color;
   display: flex;
   .breadcrumb-content {
     display: flex;
@@ -65,14 +65,19 @@ $second-background: rgba(0, 0, 0, 0.1);
 
 .head-section {
   background: url(./img/xenia-head-img.jpg);
-  padding: 66px 0px 0px 0px;
+  padding: 0px 0px 66px 0px;
   background-size: cover;
   background-position: 42% 0px;
   background-repeat: no-repeat;
   // background-size: cover;
   .head-section-content {
     //  min-height: calc(13.2530120482vw + 187.951807229px + -8.9rem);
-    padding: 0px 38px 0px 38px;
+    padding: 2.3em 38px 2em 38px;
+    h2 {
+      font-size: 2.2em;
+      font-weight: 600;
+      color: $primary-font-color;
+    }
   }
 }
 

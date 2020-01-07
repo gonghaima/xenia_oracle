@@ -19,7 +19,9 @@ function App() {
         </div>
       </div>
       <section className="head-section">
-        <div className="head-section-content"></div>
+        <div className="head-section-content">
+          <h2>What is Hotel PMS?</h2>
+        </div>
       </section>
       <nav>
         <div className="nav-item">
