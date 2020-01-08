@@ -11,6 +11,7 @@ $primary-font-color: #fff;
 $secondary-font-color: #1a1816;
 $third-font-color: #000;
 $fourth-font-color: #100f0e;
+$fifth-font-color: #fcfbfa;
 
 $primary-background: rgba(0, 0, 0, 0.6);
 $second-background: rgba(0, 0, 0, 0.1);
@@ -77,6 +78,16 @@ $second-background: rgba(0, 0, 0, 0.1);
       font-size: 2.2em;
       font-weight: 600;
       color: $primary-font-color;
+      margin: 0 0 0.4em;
+      color: $fifth-font-color;
+    }
+    p {
+      width: 33em;
+      margin: 0 0 0.4em;
+      color: $fifth-font-color;
+      font-size: 0.9em;
+      font-weight: 400;
+      line-height: 1.55;
     }
   }
 }

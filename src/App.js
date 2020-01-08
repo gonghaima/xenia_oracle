@@ -21,6 +21,7 @@ function App() {
       <section className="head-section">
         <div className="head-section-content">
           <h2>What is Hotel PMS?</h2>
+          <p>Hotel property management systems manage all aspects of hotel business operations, including the delivery of superior guest experiences.</p>
         </div>
       </section>
       <nav>
