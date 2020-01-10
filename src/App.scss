@@ -15,6 +15,51 @@ $fifth-font-color: #fcfbfa;
 
 $primary-background: rgba(0, 0, 0, 0.6);
 $second-background: rgba(0, 0, 0, 0.1);
+$third-background: #ece9e6;
+
+@mixin general-section {
+  li {
+    position: relative;
+    padding: 0.9em 1em 0.9em 0;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    a {
+      text-decoration: none;
+      color: $secondary-font-color;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  h3 {
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.3rem;
+    font-weight: normal;
+    border-bottom: 1px solid #dedad6;
+    color: $third-font-color;
+  }
+}
+
+@mixin button-container {
+  display: flex;
+  align-items: center;
+  button {
+    height: 40px;
+    border-radius: 3px;
+    padding: 0px 15px 0px 15px;
+    color: $primary-font-color;
+    background-color: $primary-button-color;
+    border-color: $primary-theme-color;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: 0.2s;
+    &:hover {
+      cursor: pointer;
+      background-color: $primary-button-hover-color;
+    }
+  }
+}
 
 .App {
   display: block;
@@ -69,7 +114,8 @@ $second-background: rgba(0, 0, 0, 0.1);
 }
 
 .head-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),url(./img/xenia-head-img.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url(./img/xenia-head-img.jpg);
   padding: 91px 0px 66px 0px;
   background-size: cover;
   background-position: 66% 0px;
@@ -77,7 +123,7 @@ $second-background: rgba(0, 0, 0, 0.1);
   // background-size: cover;
   .head-section-content {
     //  min-height: calc(13.2530120482vw + 187.951807229px + -8.9rem);
-    padding: 2.3em 38px 2em 38px;
+    padding: 3.2em 38px 2em 38px;
     h2 {
       font-size: 2.2em;
       font-weight: 600;
@@ -87,11 +133,22 @@ $second-background: rgba(0, 0, 0, 0.1);
     }
     p {
       width: 33em;
-      margin: 0 0 0.4em;
+      margin: 0 0 1.5em;
       color: $fifth-font-color;
       font-size: 0.9em;
       font-weight: 400;
       line-height: 1.55;
+    }
+    .hero-button-container {
+      @include button-container;
+      button {
+        color: $third-font-color;
+        background-color: $fifth-font-color;
+        border-color: $third-background;
+        &:hover {
+          background-color: $third-background;
+        }
+      }
     }
   }
 }
@@ -150,23 +207,7 @@ nav {
   }
 
   .contact-button-container {
-    display: flex;
-    align-items: center;
-    button {
-      height: 40px;
-      border-radius: 3px;
-      padding: 0px 15px 0px 15px;
-      color: $primary-font-color;
-      background-color: $primary-button-color;
-      border-color: $primary-theme-color;
-      font-size: 0.9em;
-      font-weight: 500;
-      transition: 0.2s;
-      &:hover {
-        cursor: pointer;
-        background-color: $primary-button-hover-color;
-      }
-    }
+    @include button-container;
   }
 }
 
@@ -207,29 +248,7 @@ nav {
         }
       }
     }
-    @mixin general-section {
-      li {
-        position: relative;
-        padding: 0.9em 1em 0.9em 0;
-        margin-bottom: 0;
-        font-size: 0.8rem;
-        a {
-          text-decoration: none;
-          color: $secondary-font-color;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-      h3 {
-        padding-bottom: 0.5em;
-        margin-bottom: 0.5em;
-        font-size: 1.3rem;
-        font-weight: normal;
-        border-bottom: 1px solid #dedad6;
-        color: $third-font-color;
-      }
-    }
+
     .in-page-section {
       @include general-section;
     }
@@ -288,6 +307,9 @@ nav {
 @media only screen and (min-width: $breakpoint-md) {
   nav {
     height: 85px;
+  }
+  .breadcrumb {
+    height: calc(3.1948881789vw + 30px);
   }
   .head-section {
     padding-top: 91px;
