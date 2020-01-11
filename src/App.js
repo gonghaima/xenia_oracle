@@ -116,6 +116,9 @@ function App() {
           <div className="main-video" data-aos="fade-in">
             <img alt="main-video" src={oracleCloud} />
           </div>
+          <div className="learn-more-button-container">
+            <button>Learn more about Oracle Hotel PMS</button>
+          </div>
         </main>
       </section>
     </div>

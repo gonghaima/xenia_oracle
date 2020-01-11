@@ -286,6 +286,9 @@ nav {
         height: auto;
       }
     }
+    .learn-more-button-container {
+    @include button-container;
+  }
   }
 }
 
