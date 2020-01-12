@@ -16,6 +16,7 @@ $fifth-font-color: #fcfbfa;
 $primary-background: rgba(0, 0, 0, 0.6);
 $second-background: rgba(0, 0, 0, 0.1);
 $third-background: #ece9e6;
+$fourth-background: #fcfbfa;
 
 @mixin general-section {
   li {
@@ -99,7 +100,6 @@ $third-background: #ece9e6;
   height: calc(3.1948881789vw + 39.8817891374px);
   background: #100f0e;
   position: absolute;
-  opacity: 0.6;
   width: 100%;
   max-width: 1600px;
   font-size: 0.8em;
@@ -212,6 +212,7 @@ nav {
 }
 
 .main-section {
+  background-color: $fourth-background;
   padding-top: 2.5em;
   padding-bottom: 3.5em;
   padding-left: 28px;
@@ -287,8 +288,8 @@ nav {
       }
     }
     .learn-more-button-container {
-    @include button-container;
-  }
+      @include button-container;
+    }
   }
 }
 
