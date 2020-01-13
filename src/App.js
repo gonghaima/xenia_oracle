@@ -122,6 +122,7 @@ function App() {
           <section className="split-section">
             <h2>Hotel PMS Defined</h2>
             <p>Traditionally, a hotel property management system was defined as a platform that enabled a hotel or group of hotels to manage front-office capabilities, such as booking reservations, guest check-in/check-out, room assignment, managing room rates, and billing. Hotel PMS delivered a software platform that replaced time-intensive, paper and spreadsheet-heavy processes.</p>
+            <p>However, <a className="link" href="#">hotel PMS</a> technology has evolved and greater integrations offer services that extend well beyond the front desk. Hotel PMS is now a critical business operations system that enables hoteliers to deliver a seamless guest experience. Hotel PMS now integrates to other onsite services that impact the guest's complete experience, including:</p>
           </section>
 
         </main>
