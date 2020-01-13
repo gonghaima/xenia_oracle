@@ -121,6 +121,7 @@ function App() {
           </div>
           <section className="split-section">
             <h2>Hotel PMS Defined</h2>
+            <p>Traditionally, a hotel property management system was defined as a platform that enabled a hotel or group of hotels to manage front-office capabilities, such as booking reservations, guest check-in/check-out, room assignment, managing room rates, and billing. Hotel PMS delivered a software platform that replaced time-intensive, paper and spreadsheet-heavy processes.</p>
           </section>
 
         </main>
