@@ -119,6 +119,10 @@ function App() {
           <div className="learn-more-button-container">
             <button>Learn more about Oracle Hotel PMS</button>
           </div>
+          <section className="split-section">
+            <h2>Hotel PMS Defined</h2>
+          </section>
+
         </main>
       </section>
     </div>

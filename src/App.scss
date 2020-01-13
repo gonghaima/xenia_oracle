@@ -211,6 +211,18 @@ nav {
   }
 }
 
+.split-section::before {
+  content: "";
+  max-width: 1400px;
+  width: 100%;
+  height: 2px;
+  background: rgba(112, 102, 94, 0.3);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -1.75em;
+}
+
 .main-section {
   background-color: $fourth-background;
   padding-top: 2.5em;
@@ -289,6 +301,7 @@ nav {
     }
     .learn-more-button-container {
       @include button-container;
+      padding-bottom: 3.5em;
     }
   }
 }
