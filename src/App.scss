@@ -63,6 +63,14 @@ $fourth-background: #fcfbfa;
   }
 }
 
+@mixin anchor-type-1 {
+  color: $sixth-font-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .App {
   display: block;
   /* background-color: #ece9e6; */
@@ -212,14 +220,6 @@ nav {
   }
 }
 
-.link {
-  color: $sixth-font-color;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
 .split-section {
   &::before {
     content: "";
@@ -313,6 +313,18 @@ nav {
     .learn-more-button-container {
       @include button-container;
       padding-bottom: 3.5em;
+    }
+    li {
+      list-style: disc;
+      line-height: 1;
+      margin-bottom: 0.6em;
+      position: relative;
+      left: 1em;
+    }
+    .link,
+    a {
+      @include anchor-type-1;
+      font-size: 0.9rem;
     }
   }
 }

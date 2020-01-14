@@ -123,6 +123,26 @@ function App() {
             <h2>Hotel PMS Defined</h2>
             <p>Traditionally, a hotel property management system was defined as a platform that enabled a hotel or group of hotels to manage front-office capabilities, such as booking reservations, guest check-in/check-out, room assignment, managing room rates, and billing. Hotel PMS delivered a software platform that replaced time-intensive, paper and spreadsheet-heavy processes.</p>
             <p>However, <a className="link" href="#">hotel PMS</a> technology has evolved and greater integrations offer services that extend well beyond the front desk. Hotel PMS is now a critical business operations system that enables hoteliers to deliver a seamless guest experience. Hotel PMS now integrates to other onsite services that impact the guest's complete experience, including:</p>
+            <ul className="learn-more-content">
+              <li>
+                <a href="#">OPERA Cloud Property Management System</a>
+              </li>
+              <li>
+                <a href="#">Sales and Catering</a>
+              </li>
+              <li>
+                <a href="#">Reporting and Analytics</a>
+              </li>
+              <li>
+                <a href="#">Loyalty</a>
+              </li>
+              <li>
+                <a href="#">Mobility</a>
+              </li>
+              <li>
+                <a href="#">Distribution and Revenue Optimization</a>
+              </li>
+            </ul>
           </section>
 
         </main>
