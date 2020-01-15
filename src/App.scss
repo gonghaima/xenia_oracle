@@ -232,6 +232,16 @@ nav {
     position: relative;
     top: -1.75em;
   }
+  .split-content {
+    @include general-section;
+    margin: 0 0 1.1em;
+    li {
+      padding: 0.4em 1em 0.4em 0;
+      a {
+        color: $sixth-font-color;
+      }
+    }
+  }
 }
 
 .main-section {
@@ -303,7 +313,8 @@ nav {
       line-height: 1.55;
       font-size: 0.9rem;
     }
-    .main-video {
+    .main-video,
+    .main-img {
       padding-bottom: 1.2em;
       img {
         width: 100%;
