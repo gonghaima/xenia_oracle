@@ -148,6 +148,10 @@ function App() {
               <img alt="main-video" src={whatIsHotelPMS} />
             </div>
           </section>
+          <section className="split-section">
+            <h2>Business Benefits of Hotel Property Management</h2>
+            <p>ddd</p>
+          </section>
 
         </main>
       </section>
