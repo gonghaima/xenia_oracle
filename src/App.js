@@ -150,7 +150,7 @@ function App() {
           </section>
           <section className="split-section">
             <h2>Business Benefits of Hotel Property Management</h2>
-            <p>ddd</p>
+            <p>The consumer's travel journey begins by selecting a destination while simultaneously shopping for a hotel. That pre-stay shopping and booking interaction, their on-property engagement with the hotel and its staff, their in-room experience, and their sharing of feedback on social media post-stay are all part of their guest experience. Hoteliers are challenged with providing a personalized guest experience while operating an effective hotel business. Today's hotel PMS solutions help hoteliers deliver the experience guests want, while efficiently managing their business. Hotel PMS offers many benefits for a hotelier's business. They include:</p>
           </section>
 
         </main>
