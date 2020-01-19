@@ -151,6 +151,34 @@ function App() {
           <section className="split-section">
             <h2>Business Benefits of Hotel Property Management</h2>
             <p>The consumer's travel journey begins by selecting a destination while simultaneously shopping for a hotel. That pre-stay shopping and booking interaction, their on-property engagement with the hotel and its staff, their in-room experience, and their sharing of feedback on social media post-stay are all part of their guest experience. Hoteliers are challenged with providing a personalized guest experience while operating an effective hotel business. Today's hotel PMS solutions help hoteliers deliver the experience guests want, while efficiently managing their business. Hotel PMS offers many benefits for a hotelier's business. They include:</p>
+            <table class="otable-w2">
+              <tbody>
+                <tr>
+                  <td>Enhanced check-in/check-out capabilities</td>
+                  <td>Provide anytime, anywhere service to your guests using a <a href="/nz/industries/hospitality/hotels-resorts/mobile.html">mobile-enabled cloud-based hotel PMS</a>. Untether your front-desk staff so they can check guests in, assign rooms, enable guest services, and check guests out wherever there is internet connectivity</td>
+                </tr>
+                <tr>
+                  <td>Improved housekeeping service</td>
+                  <td>Increase housekeeping efficiency with instant updates on housekeeping <a href="/nz/industries/food-beverage/products/micros-tablet-700-series.html">mobile devices</a> when customers check out, freeing up rooms for cleaning. Enable greater flexibility with room management and improve response time for room-service tasks. Identify and manage room-maintenance needs, ensuring rooms are clean and in perfect condition</td>
+                </tr>
+                <tr>
+                  <td>Integrated hotel back-office systems</td>
+                  <td>Connect operations and financial processes by leveraging prebuilt integrations to accounts receivable, accounts payable, payment gateways, hotel industry applications, and property infrastructure devices. Integrate accounts receivable and commission handling. Ensure accurate guest folios for faster, more accurate billing.</td>
+                </tr>
+                <tr>
+                  <td>Effective hotel distribution management</td>
+                  <td>Increase room occupancy and ADR through real-time rate and availability <a href="/nz/industries/hospitality/products/otas-gds-channels-self-service.html">management across distribution channels</a>. Boost sales through direct booking channels on brand website.</td>
+                </tr>
+                <tr>
+                  <td>Improved hotel revenue management</td>
+                  <td>Empower managers to improve ADR with extensive options for setting rates and advanced rate-management features for manual and semiautomated revenue management.</td>
+                </tr>
+                <tr>
+                  <td>Better managed customer data</td>
+                  <td>Centralize and secure customer data and improve the quality and accuracy of guest profiles with <a href="/nz/industries/hospitality/products/opera-reporting-analytics.html">reporting and analytics</a>. Understand customer buying patterns so you can define more <a href="/nz/industries/hospitality/products/opera-customer-loyalty-tracking.html">targeted packages and services</a>. Ensure compliance with national and international data-compliance rules</td>
+                </tr>
+              </tbody>
+            </table>
           </section>
 
         </main>
