@@ -243,6 +243,15 @@ nav {
       }
     }
   }
+  table {
+    td:first-child {
+      width: 13em;
+      padding-right: 1em;
+      font-weight: bold;
+      text-align: right;
+      vertical-align: top;
+    }
+  }
 }
 
 .main-section {
