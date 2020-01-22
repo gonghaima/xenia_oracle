@@ -179,6 +179,9 @@ function App() {
                 </tr>
               </tbody>
             </table>
+            <div className="additional-info">
+              <h3>Learn more</h3>
+            </div>
           </section>
 
         </main>

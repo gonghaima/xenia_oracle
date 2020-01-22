@@ -243,9 +243,17 @@ nav {
       }
     }
   }
+  .additional-info {
+    h3 {
+      padding-bottom: 1em;
+      font-weight: normal;
+      font-size: 1.5rem;
+    }
+  }
   table {
     border: 2px solid #f1f0eb;
     border-collapse: collapse;
+    margin-bottom: 3.5em;
     tr:nth-child(odd) {
       background-color: #f1f0eb;
     }
