@@ -181,6 +181,11 @@ function App() {
             </table>
             <div className="additional-info">
               <h3>Learn more</h3>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
             </div>
           </section>
 

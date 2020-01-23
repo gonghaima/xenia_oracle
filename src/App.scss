@@ -63,6 +63,17 @@ $fourth-background: #fcfbfa;
   }
 }
 
+@mixin icon-container {
+  display: flex;
+  li {
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 30px;
+    background-image: url("http://via.placeholder.com/58");
+  }
+}
+
 @mixin anchor-type-1 {
   color: $sixth-font-color;
   text-decoration: none;
@@ -299,14 +310,7 @@ nav {
         color: $third-font-color;
       }
       ul {
-        display: flex;
-        li {
-          height: 50px;
-          width: 50px;
-          margin-right: 5px;
-          border-radius: 30px;
-          background-image: url("http://via.placeholder.com/58");
-        }
+        @include icon-container;
       }
     }
 
@@ -351,6 +355,16 @@ nav {
     .learn-more-button-container {
       @include button-container;
       padding-bottom: 3.5em;
+    }
+    ul {
+      @include icon-container;
+      justify-content: space-between;
+      padding: 0px 10px;
+      li {
+        list-style: none;
+        left: 0;
+        margin: 0;
+      }
     }
     li {
       list-style: disc;
