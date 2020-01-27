@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/xenia_oracle/static/css/main.350b5789.chunk.css",
-    "main.js": "/xenia_oracle/static/js/main.8c74e19c.chunk.js",
-    "main.js.map": "/xenia_oracle/static/js/main.8c74e19c.chunk.js.map",
+    "main.css": "/xenia_oracle/static/css/main.5dc25fda.chunk.css",
+    "main.js": "/xenia_oracle/static/js/main.c3ab792c.chunk.js",
+    "main.js.map": "/xenia_oracle/static/js/main.c3ab792c.chunk.js.map",
     "runtime-main.js": "/xenia_oracle/static/js/runtime-main.7c1539f6.js",
     "runtime-main.js.map": "/xenia_oracle/static/js/runtime-main.7c1539f6.js.map",
-    "static/js/2.564fb7f3.chunk.js": "/xenia_oracle/static/js/2.564fb7f3.chunk.js",
-    "static/js/2.564fb7f3.chunk.js.map": "/xenia_oracle/static/js/2.564fb7f3.chunk.js.map",
+    "static/css/2.06565635.chunk.css": "/xenia_oracle/static/css/2.06565635.chunk.css",
+    "static/js/2.4bac486f.chunk.js": "/xenia_oracle/static/js/2.4bac486f.chunk.js",
+    "static/js/2.4bac486f.chunk.js.map": "/xenia_oracle/static/js/2.4bac486f.chunk.js.map",
     "index.html": "/xenia_oracle/index.html",
-    "precache-manifest.2df00e0f879bd636f0d2035ae168f527.js": "/xenia_oracle/precache-manifest.2df00e0f879bd636f0d2035ae168f527.js",
+    "precache-manifest.cbf6c2dd0bcfc92720e856be6773b800.js": "/xenia_oracle/precache-manifest.cbf6c2dd0bcfc92720e856be6773b800.js",
     "service-worker.js": "/xenia_oracle/service-worker.js",
-    "static/css/main.350b5789.chunk.css.map": "/xenia_oracle/static/css/main.350b5789.chunk.css.map",
-    "static/js/2.564fb7f3.chunk.js.LICENSE": "/xenia_oracle/static/js/2.564fb7f3.chunk.js.LICENSE",
+    "static/css/2.06565635.chunk.css.map": "/xenia_oracle/static/css/2.06565635.chunk.css.map",
+    "static/css/main.5dc25fda.chunk.css.map": "/xenia_oracle/static/css/main.5dc25fda.chunk.css.map",
+    "static/js/2.4bac486f.chunk.js.LICENSE": "/xenia_oracle/static/js/2.4bac486f.chunk.js.LICENSE",
+    "static/media/hotel-what-is-hotel-pms.jpg": "/xenia_oracle/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg",
+    "static/media/oracle-cloud.jpg": "/xenia_oracle/static/media/oracle-cloud.9676248c.jpg",
     "static/media/App.scss": "/xenia_oracle/static/media/xenia-head-img.a7c7c89f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7c1539f6.js",
-    "static/js/2.564fb7f3.chunk.js",
-    "static/css/main.350b5789.chunk.css",
-    "static/js/main.8c74e19c.chunk.js"
+    "static/css/2.06565635.chunk.css",
+    "static/js/2.4bac486f.chunk.js",
+    "static/css/main.5dc25fda.chunk.css",
+    "static/js/main.c3ab792c.chunk.js"
   ]
 }
