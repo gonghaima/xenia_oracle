@@ -180,11 +180,28 @@ function App() {
               </tbody>
             </table>
             <div className="additional-info">
-              <h3>Learn more</h3>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+              <div className="additional-info-l">
+                <h3>Learn more</h3>
+              </div>
+              <ul className="additional-info-r">
+                <li>
+                  <a href="#">
+                    <div></div>
+                    <span>Quick Tour</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div></div>
+                    <span>Process Map</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div></div>
+                    <span>Data Sheet</span>
+                  </a>
+                </li>
               </ul>
             </div>
           </section>
