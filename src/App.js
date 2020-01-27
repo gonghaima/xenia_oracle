@@ -205,6 +205,9 @@ function App() {
               </ul>
             </div>
           </section>
+          <section className="split-section">
+            <h2>Selecting the Right Hotel PMS</h2>
+          </section>
 
         </main>
       </section>
