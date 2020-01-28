@@ -207,6 +207,8 @@ function App() {
           </section>
           <section className="split-section">
             <h2>Selecting the Right Hotel PMS</h2>
+            <p>Choosing the right hotel property management system is critical to the smooth running of your hotel operation. It pays to understand exactly what you do need, and what you don't need.</p>
+            <p>The <a href="#">2019 Smart Decision Guide to Hotel Property Management Systems</a> provides the information you need to make a smart decision and find the <a href="#">hotel PMS</a> that best fits your need. This research report, conducted by Starfleet and sponsored by Oracle Hospitality, provides a checklist to use when evaluating hotel PMS, a list of must-ask questions for vendors, a roadmap for buying decisions, and valuable insights from industry insiders and experts.</p>
           </section>
 
         </main>
