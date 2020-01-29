@@ -115,7 +115,7 @@ function App() {
           <h2>How Hotel PMS Works</h2>
           <p>OPERA Cloud hotel property management system offers hoteliers capabilities to enhance operating efficiency and deliver exceptional guest experiences. The platform integrates emerging technologies with ease, accelerating innovation to meet ever-changing demands.</p>
           <div className="main-video" data-aos="fade-in">
-            <img alt="main-video" src={oracleCloud} />
+            <img alt="main-img" src={oracleCloud} />
           </div>
           <div className="learn-more-button-container">
             <button>Learn more about Oracle Hotel PMS</button>
@@ -210,7 +210,9 @@ function App() {
             <p>Choosing the right hotel property management system is critical to the smooth running of your hotel operation. It pays to understand exactly what you do need, and what you don't need.</p>
             <p>The <a href="#">2019 Smart Decision Guide to Hotel Property Management Systems</a> provides the information you need to make a smart decision and find the <a href="#">hotel PMS</a> that best fits your need. This research report, conducted by Starfleet and sponsored by Oracle Hospitality, provides a checklist to use when evaluating hotel PMS, a list of must-ask questions for vendors, a roadmap for buying decisions, and valuable insights from industry insiders and experts.</p>
           </section>
-
+          <section className="split-section">
+            <h2>Deploying Cloud-Based Hotel PMS</h2>
+          </section>
         </main>
       </section>
     </div>
