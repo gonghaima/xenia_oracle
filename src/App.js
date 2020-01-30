@@ -212,6 +212,9 @@ function App() {
           </section>
           <section className="split-section">
             <h2>Deploying Cloud-Based Hotel PMS</h2>
+            <p>Until recently, hotel PMS solutions were often managed on premises. On-premises solutions include hardware that can take up a lot of space. Resources were needed to manage the systems and software updates, upgrades, and patches needed to be scheduled and installed manually by onsite staff.</p>
+            <p>Cloud-based, mobile-enabled hotel PMS platforms offer hotels an innovative way to engage with guests while enabling hotels to reduce IT costs and simplify their infrastructure. The systems are administered by the vendor and are easy to use. Updates, upgrades, and patches are done automatically, saving hotels time and money.</p>
+            <p>The benefits of cloud-based hotel PMS solutions include:</p>
           </section>
         </main>
       </section>
