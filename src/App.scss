@@ -74,6 +74,14 @@ $fourth-background: #fcfbfa;
   }
 }
 
+@mixin general-list {
+  list-style: disc;
+  line-height: 1;
+  margin-bottom: 0.6em;
+  position: relative;
+  left: 1em;
+}
+
 @mixin anchor-type-1 {
   color: $sixth-font-color;
   text-decoration: none;
@@ -392,11 +400,12 @@ nav {
     }
 
     li {
-      list-style: disc;
-      line-height: 1;
-      margin-bottom: 0.6em;
-      position: relative;
-      left: 1em;
+      @include general-list;
+    }
+    .content-list-container li {
+      @include general-list;
+      line-height: 1.2;
+      font-size: 0.9rem;
     }
     .link,
     a {
