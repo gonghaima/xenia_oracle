@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import oracleCloud from './img/oracle-cloud.jpg';
 import whatIsHotelPMS from './img/hotel-what-is-hotel-pms.jpg';
 import './App.scss';
 
 function App() {
+  const [header, setHeader] = useState();
+
+  useEffect(() => {
+    !header && fetch('https://serene-dawn-35666.herokuapp.com/Headers').then(res => {
+
+      return res.json();
+    }).then(bd => {
+      console.log(bd);
+      setHeader(bd[0]);
+    });
+  }, [header]);
+
   return (
     <div className="App">
       <section className="top-section">
@@ -21,10 +33,10 @@ function App() {
       </div>
       <section className="head-section">
         <div className="head-section-content">
-          <h2>What is Hotel PMS?</h2>
-          <p>Hotel property management systems manage all aspects of hotel business operations, including the delivery of superior guest experiences.</p>
+          <h2>{header && header.Title}</h2>
+          <p>{header && header.Subtitle}</p>
           <div className="hero-button-container">
-            <button>Get help selecting the right Hotel PMS  </button>
+            <button>{header && header.ButtonText}</button>
           </div>
         </div>
       </section>
