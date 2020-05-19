@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9fe11a42d0995a8696ae45e106dbc4a0",
+    "revision": "529e793accf077b12a84fb1fd4f7e50a",
     "url": "/xenia_oracle/index.html"
   },
   {
-    "revision": "7e33fd2f63f7cba15d9b",
+    "revision": "15ada11342039e93ee42",
     "url": "/xenia_oracle/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "80ab086bb0745e841cb1",
-    "url": "/xenia_oracle/static/css/main.5dc25fda.chunk.css"
+    "revision": "32466f7a155d27d29a8c",
+    "url": "/xenia_oracle/static/css/main.250edd22.chunk.css"
   },
   {
-    "revision": "7e33fd2f63f7cba15d9b",
-    "url": "/xenia_oracle/static/js/2.4bac486f.chunk.js"
+    "revision": "15ada11342039e93ee42",
+    "url": "/xenia_oracle/static/js/2.0b3c9cdc.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/xenia_oracle/static/js/2.4bac486f.chunk.js.LICENSE"
+    "url": "/xenia_oracle/static/js/2.0b3c9cdc.chunk.js.LICENSE"
   },
   {
-    "revision": "80ab086bb0745e841cb1",
-    "url": "/xenia_oracle/static/js/main.c3ab792c.chunk.js"
+    "revision": "32466f7a155d27d29a8c",
+    "url": "/xenia_oracle/static/js/main.2eaa8c7c.chunk.js"
   },
   {
     "revision": "9d3c41beb42dd46ed538",
